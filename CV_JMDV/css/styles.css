@@ -1,0 +1,59 @@
+html, body{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    margin:0;
+    font-size: 13px;
+}
+.divlogo{
+    background-color:#E6E6E6;
+}
+.divtitulo{
+    color:#005677;
+    background-color:#C4C4C4;
+    letter-spacing: 10px;
+    padding: 5px;
+    word-spacing: 0.50em;
+}
+.divdatos{
+    color:#005677;
+    background-color:#C4C4C4;
+    margin-top: 80px;
+    letter-spacing: 10px;
+    padding: 5px;
+    word-spacing: 0.50em;
+}
+.divcontener_experiencia{
+    display: flex;
+    text-align: left;
+    margin-top: -20px;
+}
+.divdescripcion{
+    margin-left: -35px;
+}
+.divformacion, .divexperiencia{
+    color:#005677;
+    background-color:#C4C4C4;
+    letter-spacing: 10px;
+    padding: 5px;
+    word-spacing: 0.50em;
+}
+.negrita{
+    font-weight:bold;
+}
+
+/*Pie de pagina*/
+.footer{
+    background-color:#005677;
+    color:#ffffff;
+    height: 7%;
+    margin-top: 11px;
+    text-align: center;
+}
+.footertexto{
+    display: inline-block;
+}
+.footerinstagram, .footerlinkedin{
+    display: inline-block;
+    padding: 20px;
+}
